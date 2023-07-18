@@ -1,0 +1,10 @@
+.RestaurantOrders {}
+
+.status-bg-completed{
+    background-color: green ;
+}
+/* Make the header names bold */
+.MuiDataGrid-root .MuiDataGrid-columnHeaderTitle {
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,11 @@
+
+  hr {
+    border: .05rem solid #FC8019;
+    width: 100%;
+  }
+  .Toastify__toast-container--top-right{
+    z-index: 9999 !important;
+    top: 0em!important;
+  }
+
+

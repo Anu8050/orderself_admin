@@ -1,0 +1,30 @@
+
+.row-col-layout {     
+    display:flex;
+    flex-direction: row;
+}
+
+.row-col-layout > div {
+    /* border: 1px solid green; */
+    width:50%;
+    padding-top: 10px;
+   padding-right: 10px; 
+}
+
+.single-col-layout > div {
+    /* border: 1px solid green; */
+    width:100%;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.vijet > input{
+    width: 240px;
+}
+
+@media screen and (max-width: 600px) {
+    .row-col-layout {     
+        flex-direction: column !important;
+    }    
+
+}

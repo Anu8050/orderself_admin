@@ -1,0 +1,141 @@
+.tablepage-container{
+    display: flex;
+    flex-direction: column;    
+    
+    /* overflow:scroll; */
+}
+.table-icon{
+    width: 80px;
+    height:80px;
+    border-radius:60%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.tbl-img{
+    width:45px;
+    height: 45px;
+    margin-top: -20px; 
+}
+.tbl-number{
+    margin-top: 1px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.Table-details-column{
+    /* border:1px solid red; */
+    /* width:400px; */
+    /* height:500px; */
+    background-color: #FAFBFD;
+    /* overflow:visible;
+    overflow: scroll; */
+   
+}
+.table-bg-available{
+    background-color:#2AE89B;
+}
+
+.table-bg-occupied{
+    background-color: red;
+}
+.table-bg-reserved{
+    background-color:#FFE69C;
+}
+.special-table{
+    visibility: hidden;   
+}
+.isSpecial-table{
+    visibility:visible;
+}
+.table-status{
+    width:200px;
+    display:grid;
+    /* row-gap: 100px; */
+    grid-template-columns: 2fr 5fr 2fr;
+    
+}
+.table-status > div{
+ text-align:  center;
+
+ /* margin:auto; */
+
+}
+.table-status > p{
+   text-align: center;
+   margin:auto;
+}
+.table-status > strong{
+    text-align:  center;
+    margin:auto;
+ }
+ .filled-icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:red;
+    margin:5px 0px;
+    /* padding: 5px; */
+ }
+ .reserved-icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:#FFE69C;
+    margin:5px 0px;
+ }
+ .available-icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:#2AE89B;
+    margin:5px 0px;
+ }
+ .special-icon{
+    width: 25px;
+    height: 25px;
+    text-align:  center;
+    /* margin:auto; */
+    margin:5px 0px;
+ }
+ .orderStatus{
+    display: grid;
+    grid-template-columns: 1fr 1fr 6fr;
+    padding:0px 30px;
+ }
+ .orderStatus > p {
+    margin-top: auto;
+    text-align: left;
+
+ }
+
+ .table-widgets{
+    width: 100%;
+    flex-direction: row;
+    text-align: justify !important;
+    padding-bottom: 30px;
+    cursor: pointer;
+    
+ }
+
+@media only screen and (max-width: 600px) {
+    .tablepage-container{
+        flex-direction: column;
+    }
+    .Table-details-column{
+        width:100%;
+      
+       
+    }    
+ 
+    .table-widgets{
+        width: 100%;
+        flex-direction: column;
+        text-align: justify !important;
+        padding-bottom: 30px;
+        cursor: pointer;
+     }
+  }
+

@@ -1,0 +1,65 @@
+.config-buttons{
+    display: flex;
+    flex-direction :column;
+    padding-right: 10px;
+}
+
+.all-config-buttons{
+    display: flex;
+    flex-direction :row;    
+}
+
+hr {
+    border: .05rem solid #FC8019;
+    width: inherit;
+  }
+
+  .restaurant-config-box
+  {
+    margin: 0 auto !important;
+    gap:10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    
+    max-width: 540px;
+    min-height: 350px;    
+    flex-direction: column;
+  }
+
+.config-buttons > div{
+    padding-bottom: 15px;
+}
+
+.config-screen-btns {
+    width: 220px;
+    font-size: .8em !important;
+  }
+  .config-buttons > div > button{
+    justify-content: flex-start;
+  }
+
+@media screen and (max-width: 480px) {
+  .all-config-buttons{
+      display: flex;
+      flex-direction :column;    
+  }
+
+    .restaurant-config-box
+    {
+      margin: 0 auto !important;
+      gap:10px;
+      display: flex;
+      align-items: center;      
+      margin-right: 15px !important;      
+      background-color: #fff;
+      border-radius: 0.5rem;      
+      max-width: 300px;
+      min-height: 250px;    
+      flex-direction: column;
+    }
+}

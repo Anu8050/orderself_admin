@@ -1,0 +1,8 @@
+{
+  "api_baseURL": "https://api-m.sandbox.paypal.com",
+  "clientId": "Ac9lZ5VomxhnTrzo7X1SJLw-57KpwPJglOICJMF4a0e9k8-w-3uXSSimJ0bJ79ETUfnVSbkVTwnu8XQs", 
+  "clientSecret": "EBypxvQYk8Z9dFn7_61XioB5oZacdx_XVWbpNxX-BHVCfGU4PfMeInd3ObkU2Zj7t2MgRSMHtWRdvvOi",
+  "partnerId": "BU9AC7AQ73H9Q", 
+  "paypal_partner_attribution_id": "SMARTAPPSOLUTIONS_SP_PPCP"
+}
+

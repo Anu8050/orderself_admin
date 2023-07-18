@@ -1,0 +1,106 @@
+.modal-container {
+    font-family: "Lato";
+  
+    .modal-header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 36px 24px 18px;
+      border-bottom: 1px solid #e4e4e4;
+  
+      .header {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 700;
+        color: #4f535a;
+      }
+    }
+  
+    .modal-form-container {
+      padding: 32px 24px 56px;
+  
+      h4 {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 700;
+        color: #292d32;
+        margin-bottom: 8px;
+      }
+  
+      .input-field {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: inherit;
+        color: #767c87;
+        padding: 14px 16px;
+        border: none;
+        width: 100%;
+        border-radius: 4px;
+        background-color: #f4f6f9;
+  
+        // margin-bottom: 40px;
+        &:focus {
+          outline: none;
+        }
+  
+        &::placeholder {
+          font-size: 12px;
+        }
+      }
+  
+  
+      .modal-action-buttons {
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+  
+        // button {
+        //   border: none;
+        //   font-size: 14px;
+        //   font-weight: 700;
+        //   padding: 8px 40px;
+        //   border-radius: 4px;
+        //   cursor: pointer;
+        // }
+        // button:focus {
+        //   outline: none;
+        // }
+        .cancel-btn {
+          color: #4f535a;
+          margin-right: 16px;
+          border: 1px solid #e4e4e4;
+          background-color: #fff;
+        }
+  
+        .create-btn {
+          color: #fafbfd;
+          background-color: #1c96f2;
+        }
+      }
+    }
+  }
+  
+  .error-message {
+    font-size: 14px;
+    color: red;
+    margin: 0;
+  }
+
+  .input-field {
+    font-size: 1em;
+    font-weight: 400;
+    font-family: inherit;
+    color: #767c87;
+    padding: 14px 16px;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #f4f6f9;
+     margin-bottom: 10px;
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      font-size: 12px;
+    }
+  }

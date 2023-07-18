@@ -1,0 +1,37 @@
+/* 
+
+
+
+.table-text{
+    font-size: 1.5rem;
+}
+.addtable-header{
+    font-size: 2rem;
+} */
+
+label {
+    font-size: .8em;
+}
+.addtbl-img{
+    width:94px;
+    height:94px;
+}
+.nbtn{
+    width: 80px;
+    height: 70px;
+    font-size: 2.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+   }
+.btn{
+    width:5vw;
+    font-size: 3rem;
+    background-color:white;
+    border:0px;
+    font-weight: 600;   
+}
+.grp-btn{
+    display: flex;
+    justify-content:center;
+}

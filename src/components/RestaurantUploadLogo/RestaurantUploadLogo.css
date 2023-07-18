@@ -1,0 +1,23 @@
+.upload-icon-dialog-box{
+    
+
+}
+/* .upload-icon-title{
+    font-size: 2rem;
+    padding:2%; 
+} */
+.upload-icon-content {
+  /* border:1px solid rgb(219, 17, 17); */
+  border-top: 0.15em solid #fc8019 !important;
+  /* padding:5%; */
+  
+}
+
+.image-dropzone {
+  margin-top: 8%;
+}
+
+.action-btn {
+  display: flex !important;
+  justify-content: center !important;
+}

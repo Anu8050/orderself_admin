@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Toastify__progress-bar--success {
+  background-color: #FC8019 !important;
+}
+.Toastify__toast-container{
+  
+}
+
+.Toastify__toast-container--top-right{
+  z-index: 9999 !important;
+  top: 4em;
+}
+
+.welcome-screen-bg {
+  padding-top: 20vh;
+  background-image: url("/src/assets/backgrounds/welcome-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.welcome-screen-box {
+  margin-left: auto;
+  margin-right: 10vw;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  width: 360px !important;
+  min-height: 450px;
+  flex-direction: column;
+}
+
+.closeIcon {
+  cursor: pointer;
+}
+
+.dialogue-content {
+  padding: 0px 30px 10px 30px;
+}
+
+.action-btns{
+  display: flex;
+  padding: 0px 20px 0px 20px;
+}
+
+.ingredients-close-icon{
+  color: #FF0000;
+  font-size: smaller;
+  padding-right: 5px;
+  padding-top: 2px;
+  vertical-align: middle;
+}
+
+.small-font{
+  font-size: smaller;
+}
+
+@media screen and (min-width: 768px) {}
+
+.welcome-screen-btns {
+  width: 250px;
+}
+
+.registration-screen-txtbx {
+  width: 280px;
+
+}
+
+.form-txtbx-container
+{  
+  margin-bottom: 15px;
+  width: 280px;
+}
+
+.field-validation-text{
+  font-size: 0.8em; 
+  color: #FF0000; 
+  text-align:right;
+}
+
+.app-error-icon{
+  color: #FF0000;
+  font-size: smaller;
+  padding-right: 5px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+  .welcome-screen-bg {
+    padding-top: 5vh;
+    background-image: url("/src/assets/backgrounds/welcome-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:10px !important;
+    height: 80vh;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .welcome-screen-box {
+    margin: 0 auto !important;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    width: 340px !important;
+    min-height: 450px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 880px) and (orientation: landscape) {
+  .welcome-screen-bg {
+    padding-top: 0vh;
+   
+  }
+
+  .welcome-screen-box {
+    margin: 0 auto !important;
+    gap: 5px;
+    display: flex;    
+    background-color: #fff;
+    border-radius: 0.5rem;
+    width: 340px !important;
+    min-height: 450px;
+    flex-direction: column;
+  }
+}
+
+
+.css-16ritvp-MuiInputBase-root-MuiOutlinedInput-root{
+  height: 50.25px;
+}
+
+.MuiAutocomplete-inputRoot .MuiAutocomplete-input{
+  color:#767C87; 
+}

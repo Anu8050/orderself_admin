@@ -1,0 +1,16 @@
+.ManageMenuItems {}
+
+.breadcrumb{
+    font-style: normal;    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #292D32;
+    padding:0px 0px 0px 0px;
+}
+
+.action-button {
+    padding:0px 0px 0px 0px;
+    text-align: right;
+}
+
